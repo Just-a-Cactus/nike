@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Nike</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="Nike" />
+	<link rel="icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+	<div class="ba-container">
+		<header class="ba-header-block">
+			<div class="ba-logo">
+				<a href="#">
+					<img src="./img/logo.png" alt="logo-nike">
+				</a>
+			</div>
+			<nav>
+				<ul class="ba-menu-list">
+					<li class="ba-menu-list__item ba-menu-list__item--first ba-menu-list__item--hover">
+						<a href="#">lifestyle</a>
+					</li>
+					<li class="ba-menu-list__item ba-menu-list__item--hover">
+						<a href="#">running</a>
+					</li>
+					<li class="ba-menu-list__item ba-menu-list__item--hover">
+						<a href="#">football</a>
+					</li>
+					<li class="ba-menu-list__item ba-menu-list__item--fourth ba-menu-list__item--hover">
+						<a href="#">skateboarding</a>
+					</li>
+					<li class="ba-menu-list__item ba-menu-list__item--last">
+						<a href="#">
+							<img src="./img/menu.png" alt="menu-btn">
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="ba-nike-card">
+				<div class="ba-main-part">
+					<h1 class="ba-main-part__title">huarache</h1>
+					<img class="ba-main-part__snickers" src="./img/snickers.png">
+					<a href="#" class="ba-add-button">
+						<div class="ba-add-button-move">
+							<span class="ba-add-button__one"></span>
+							<span class="ba-add-button__two"></span>
+						</div>
+					</a>
+					<div class="ba-mini-photo-container">
+						<a href="#">
+							<img class="ba-mini-photo" src="./img/mini-snickers3.jpg" alt="mini-snickers3">
+						</a>
+						<a href="#">
+							<img class="ba-mini-photo" src="./img/mini-snickers2.jpg" alt="mini-snickers2">
+						</a>
+						<a href="#">
+							<img class="ba-mini-photo" src="./img/mini-snickers1.jpg" alt="mini-snickers1">
+						</a>
+					</div>
+				</div>
+				<!-- /.main-part -->
+				<div class="ba-info-part">
+					<div class="ba-info-part-container">
+						<h2 class="ba-info-part__title" data="new">the <span>running</span><br>has just begun</h2>
+						<div class="ba-rate">
+							<h6 class="ba-rate__title">Huarache</h6>
+							<ul class="ba-rate__stars">
+								<li><img src="./img/black-star.png" alt="black-star"></li>
+								<li><img src="./img/black-star.png" alt="black-star"></li>
+								<li><img src="./img/black-star.png" alt="black-star"></li>
+								<li><img src="./img/black-star.png" alt="black-star"></li>
+								<li><img src="./img/white-star.png" alt="white-star"></li>
+							</ul>
+						</div>
+						<h4 class="ba-info-part__price">$ 200</h4>
+						<h6 class="ba-info-part__size">Size</h6>
+						<form action="get" name="size" class="ba-size">
+							<label class="ba-size-label">
+								<input class="ba-size-radio" type="radio" name="price" value="7">
+								<span class="ba-size-radio__number ba-size-radio__number--move7">7</span>
+							</label>
+							<label class="ba-size-label">
+								<input class="ba-size-radio" type="radio" name="price" value="8">
+								<span class="ba-size-radio__number ba-size-radio__number--move8">8</span>
+							</label>
+							<label class="ba-size-label">
+								<input class="ba-size-radio" type="radio" name="price" value="9">
+								<span class="ba-size-radio__number ba-size-radio__number--move9">9</span>
+							</label>
+							<label class="ba-size-label">
+								<input class="ba-size-radio" type="radio" name="price" value="10">
+								<span class="ba-size-radio__number ba-size-radio__number--move10">10</span>
+							</label>
+							<label class="ba-size-label">
+								<input class="ba-size-radio" type="radio" name="price" value="11">
+								<span class="ba-size-radio__number">11</span>
+							</label>
+						</form>
+						<button type="submit" class="ba-info-part__buttons">
+							<p>add to cart</p>
+						</button>
+						<button type="submit" class="ba-info-part__buttons ba-info-part__buttons--white">
+							<p>wishlist</p>
+						</button>
+						<a href="#" class="ba-close-button">
+							<div class="ba-close-button-move">
+								<span class="ba-close-button__one"></span>
+								<span class="ba-close-button__two"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- /.info-part -->
+			</div>
+			<!-- /.nike-card -->
+		</main>
+		<!-- /.ba-header-block -->
+	</div>
+	<!-- /.ba-container -->
+</body>
+
+</html>
